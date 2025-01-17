@@ -11,6 +11,8 @@ type Article = {
   title: string;
   description: string;
   author_id: number;
+  author_name?: string;
+  author_email?: string;
 };
 
 type Author = {
@@ -19,4 +21,9 @@ type Author = {
   email: string;
 }
 
-export type {MessageResponse, ErrorResponse, Article, Author};
+type ArticleWithAuthor = Article & {
+  author_name: string;
+  author_email: string;
+};
+
+export type {MessageResponse, ErrorResponse, Article, Author, ArticleWithAuthor};

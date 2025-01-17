@@ -5,7 +5,10 @@ const getAllArticles = (): Article[] => {
   return db.prepare('SELECT * FROM articles').all() as Article[];
 };
 
+// old one: 'SELECT * FROM articles WHERE id = ?'
+
 const getArticle = (id: number | bigint): Article => {
+  // select article by id and join with author table to get author name and email
   const result = db
     .prepare('SELECT * FROM articles WHERE id = ?')
     .get(id) as Article;
