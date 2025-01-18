@@ -71,3 +71,13 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ## License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/ilkkamtk/express-ts-sqlite/blob/main/LICENSE) file for details.
+
+---
+
+### Test Results
+
+## Articles:
+[!alt text](./img/test_result-articles.png)
+
+## Authors:
+[!alt text](./img/test_result-authors.png)
