@@ -77,7 +77,7 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](https:/
 ### Test Results
 
 ## Articles:
-[!alt text](./img/test_result-articles.png)
+[!Alt text](img/test_result-articles.png "Articles endpoint test results")
 
 ## Authors:
-[!alt text](./img/test_result-authors.png)
+[!Alt text](img/test_result-authors.png "Authors endpoint test results")
