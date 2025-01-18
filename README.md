@@ -77,7 +77,7 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](https:/
 ### Test Results
 
 ## Articles:
-[!Alt text](img/test_result-articles.png "Articles endpoint test results")
+![image](https://github.com/karripar/hybrid-applications/blob/main/img/test_result-articles.png)
 
 ## Authors:
-[!Alt text](img/test_result-authors.png "Authors endpoint test results")
+![image](https://github.com/karripar/hybrid-applications/blob/main/img/test_result-authors.png)
